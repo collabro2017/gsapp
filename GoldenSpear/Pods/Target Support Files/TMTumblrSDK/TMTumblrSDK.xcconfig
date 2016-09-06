@@ -1,0 +1,10 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/TMTumblrSDK
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TMTumblrSDK" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFIncrementalStore" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Fabric" "${PODS_ROOT}/Headers/Public/FlickrKit" "${PODS_ROOT}/Headers/Public/GPUImage" "${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer" "${PODS_ROOT}/Headers/Public/InflectorKit" "${PODS_ROOT}/Headers/Public/JXHTTP" "${PODS_ROOT}/Headers/Public/NYTPhotoViewer" "${PODS_ROOT}/Headers/Public/RKValueTransformers" "${PODS_ROOT}/Headers/Public/RestKit" "${PODS_ROOT}/Headers/Public/SOCKit" "${PODS_ROOT}/Headers/Public/SSZipArchive" "${PODS_ROOT}/Headers/Public/Spectacles" "${PODS_ROOT}/Headers/Public/TMTumblrSDK" "${PODS_ROOT}/Headers/Public/TransformerKit" "${PODS_ROOT}/Headers/Public/TransitionKit" "${PODS_ROOT}/Headers/Public/TwitterCore" "${PODS_ROOT}/Headers/Public/TwitterKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/JXHTTP" "$PODS_CONFIGURATION_BUILD_DIR/Spectacles"
+OTHER_LDFLAGS = -framework "Foundation" -weak_framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
